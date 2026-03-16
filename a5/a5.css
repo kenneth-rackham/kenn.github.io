@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+
+.container {
+max-width: 800px;
+margin: 0 auto;
+background-color: #FFEBCD;
+border: thin solid #777777;
+}
+
+
+
+body {
+background-image: url(images/blocks.webp);
+font-size: 12px;
+font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+color: #333333;
+line-height: 1.8em;
+font-style: normal;
+font-weight: 400;
+}
+
+
+
+section {
+padding: 20px;
+}
+
+
+
+.heading {
+font-size: 24px;
+color:cornflowerblue
+}
+
+
+
+.subheading {
+font-size: 18px;
+color: darkcyan
+}
+.boxModel {
+	border: 7px solid black;
+	margin: 25px;
+}
