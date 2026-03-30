@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+
+body {
+    color: black;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+    background-image: url("images/clouds.jpeg");
+	border: thin solid #777777;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color:blanchedalmond;
+    padding: 20px;
+	line-height:1.8em;
+}
+
+
+section {
+    padding: 15px;
+}
+
+
+.columnTwo {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    padding: 10px;
+}
+
+
+.columnThree {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    padding: 10px;
+}
+.floatLeft {
+	
+	float: left;
+	border: 3px solid #999;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.floatRight {
+	float: right;
+	border: 3px solid #999;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+header {
+    background-color: #C4ACBB;
+    text-align: center;
+    padding: 15px;
+    font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+    font-size: 3em;
+    color: white;
+}
+nav {
+    text-align: center;
+    padding: 10px;
+}
+footer {
+    background-color: #C4ACBB;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 4px;
+    color: white;
+    clear: both;
+}
